@@ -11,9 +11,12 @@
             color: #0B8C99;
             font-size: 40px;
           }
+  table, th, td {
+         border: 1px solid #0B8C99;
+         }
 </style>
 <body>
-  <img src="../2019_FB_Banner.jpg">
+  <img src="<%= asset_path("2019_FB_Banner.jpg")%>" alt="Be More Adaptive Logo">
   <h1>Adaptive Database</h1>
   <table>
     <tr>
@@ -31,6 +34,14 @@
       <td>TX</td>
       <td>77019</td>
       <td>Organization URL</td> 
+    </tr>
+    <tr>
+      <td>Adaptive Sports for Kids</td>
+      <td>P.O. Box 332</td>
+      <td>Nederland</td>
+      <td>TX</td>
+      <td>77627</td>
+      <td>http://www.adaptivesportsforkids.org/</td> 
     </tr>
   </table>
 </body>
