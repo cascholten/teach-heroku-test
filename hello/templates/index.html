@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +30,7 @@
   }
 </style>
 <body>
-  <img src="..\2019_FB_Banner.jpg" alt="Be More Adaptive Logo"> 
+  <img src="{% static "2019_FB_Banner.jpg" %}" alt="Be More Adaptive Logo">
   <h1>Adaptive Database</h1>
   <input type="checkbox" id="physical1" name="physical1" value="Wheelchairs">
   <label for="physical1"> Wheelchairs</label><br>
